@@ -9,7 +9,7 @@ from langchain_core.prompts import PromptTemplate
 os.environ["GROQ_API_KEY"] = "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"
 
 st.set_page_config(page_title="Research Paper QA", page_icon="📚")
-st.title("📚 Research Paper Assistant")
+st.title(" 📚Research Paper Assistant")
 st.caption("Ask questions from 7 NLP research papers")
 
 @st.cache_resource
